@@ -77,6 +77,8 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
 
     if origin != 'country_name':
         codes_new = ["None" if x not in origin_codes else x for x in codes]
+    else:
+        codes_new = copy(codes)
 
     for k in dictionary.keys():
         codes_new = [dictionary[k] if re.match(k, x) != None else x 
