@@ -11,11 +11,6 @@ A Python port of the ``countrycode`` package for R:
 
 This is *alpha* software; the script probably won't behave well in all cases. 
 
-Dependencies
-------------
-
-+ `pandas <http://pandas.pydata.org/>`_ >= 0.9.0rc2
-
 Installation
 ------------
 
