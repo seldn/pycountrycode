@@ -4,7 +4,7 @@ def test_default():
     assert countrycode() == ['ALGERIA', 'CANADA']
 
 def test_cown_iso3c():
-    assert countrycode(codes=['666', '315'], origin='cown', target='iso3c') == ['ISR', 'BHS']
+    assert countrycode(codes=['666', '31'], origin='cown', target='iso3c') == ['ISR', 'BHS']
 
 def test_cn_iso3c():
     assert countrycode(['United States', 'India', 'Canada', 'Dem. Repu. Congo'], 
