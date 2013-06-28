@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='countrycode',
-    version='0.1',
+    version='0.2',
     author='Vincent Arel-Bundock',
     author_email='varel@umich.edu',
     packages=['countrycode'],
