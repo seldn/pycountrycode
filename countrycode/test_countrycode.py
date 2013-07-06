@@ -15,3 +15,5 @@ def test_iso3c_cn_single():
 
 print countrycode('georgia', 'country_name', 'country_name')
 print countrycode('south georgia', 'country_name', 'country_name')
+print countrycode('serbia', 'country_name', 'country_name')
+print countrycode('serbia and montenegro', 'country_name', 'country_name')

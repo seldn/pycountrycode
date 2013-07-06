@@ -146,7 +146,7 @@
 "MALI","MLI",432,133,"ML",678,"ML","MLI",466,466,"MLI","Africa","Western Africa","^[^\w]*mali|rep.* mali"
 "MALTA","MLT",338,134,"MT",181,"MT","MLT",470,470,"MLT","Europe","Southern Europe",".*malta.*"
 "MYANMAR","MYA",775,28,"BM",518,"MM","MMR",104,104,"MMR","Asia","South-Eastern Asia",".*myanmar.*|.*burma.*"
-"MONTENEGRO","MNG",341,273,"MJ",943,"ME","MNE",499,499,"MNE","Europe","Southern Europe",".*montenegro.*"
+"MONTENEGRO","MNG",341,273,"MJ",943,"ME","MNE",499,499,"MNE","Europe","Southern Europe","(?<!serbia)montenegro.*"
 "MONGOLIA","MON",712,141,"MG",948,"MN","MNG",496,496,"MNG","Asia","Eastern Asia",".*mongolia.*"
 "NORTHERN MARIANA ISLANDS",NA,NA,NA,NA,NA,"MP","MNP",580,580,"MNP","Oceania","Micronesia",".*mariana.*"
 "MOZAMBIQUE","MZM",541,144,"MZ",688,"MZ","MOZ",508,508,"MOZ","Africa","Eastern Africa",".*mozambique.*"
