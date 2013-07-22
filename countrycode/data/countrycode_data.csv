@@ -3,7 +3,7 @@
 "AFGHANISTAN","AFG",700,2,"AF",512,"AF","AFG",4,4,"AFG","Asia","Southern Asia",".*afghanistan.*"
 "ANGOLA","ANG",540,7,"AO",614,"AO","AGO",24,24,"AGO","Africa","Middle Africa",".*angola.*"
 "ANGUILLA",NA,NA,NA,NA,312,"AI","AIA",660,660,"AIA","Americas","Caribbean",".*anguilla.*"
-"ALAND ISLANDS",NA,NA,NA,NA,NA,"AX","ALA",248,248,"ALA","Europe","Northern Europe","(?!new).*aland.*"
+"ALAND ISLANDS",NA,NA,NA,NA,NA,"AX","ALA",248,248,"ALA","Europe","Northern Europe",".*(?<!new ze)aland.*"
 "ALBANIA","ALB",339,3,"AL",914,"AL","ALB",8,8,"ALB","Europe","Southern Europe",".*albania.*"
 "ANDORRA","AND",232,6,"AN",NA,"AD","AND",20,20,"ADO","Europe","Southern Europe",".*andorra.*"
 "UNITED ARAB EMIRATES","UAE",696,225,"AE",466,"AE","ARE",784,784,"ARE","Asia","Western Asia",".*u.*a.*emirates.*"
