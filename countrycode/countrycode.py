@@ -16,7 +16,7 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
     Parameters
     ----------
 
-    codes : string or list of strings 
+    codes : string or list of strings
         country names or country codes to convert
     origin : string
         name of the coding scheme of origin
@@ -26,9 +26,9 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
     Notes
     -----
 
-    Valid origin codes: 
-    
-        * country_name 
+    Valid origin codes:
+
+        * country_name
         * iso2c : ISO 2 character
         * iso3c : ISO 3 character
         * iso3n : ISO 3 numeric
@@ -44,11 +44,11 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
 
         * Any valid origin code
         * region : World Bank geographic region descriptor
-        * continent : Name of continent 
+        * continent : Name of continent
     '''
 
     # Codes to be converted (cleanup)
-    if type(codes) == str:
+    if type(codes) in [str, int]:
         codes = [codes]
         loner = True
     else:
@@ -68,7 +68,7 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
         origin_codes = data[origin]
 
     idx = [True if (v != 'NA') and (origin_codes[i] != 'NA') else False
-           for i,v in enumerate(target_codes)] 
+           for i,v in enumerate(target_codes)]
 
     origin_codes = [v for i,v in enumerate(origin_codes) if idx[i]]
     target_codes = [v for i,v in enumerate(target_codes) if idx[i]]
@@ -81,7 +81,7 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
         codes_new = copy(codes)
 
     for k in dictionary.keys():
-        codes_new = [dictionary[k] if re.match('^'+k+'$', x) != None else x 
+        codes_new = [dictionary[k] if re.match('^'+k+'$', x) != None else x
                      for x in codes_new]
 
     # Output
