@@ -1,0 +1,7 @@
+0.3
+===
+
+* More CoW numeric codes 
+* Bug with loner numeric input
+
+
