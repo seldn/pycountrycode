@@ -31,7 +31,7 @@ Central African Republic,CEN,482,37,CT,626,CF,CAF,140,140,CAF,.*cen.*afr.*,Afric
 Canada,CAN,20,33,CA,156,CA,CAN,124,124,CAN,.*canada.*,Americas,Northern America 
 Switzerland,SWZ,225,211,SZ,146,CH,CHE,756,756,CHE,.*switzerland.*,Europe,Western Europe
 Chile,CHL,155,40,CI,228,CL,CHL,152,152,CHL,.*chile.*,Americas,South America
-China,CHN,710,351,CH,924,CN,CHN,156,156,CHN,.*(?!.*mac)(?!.*kong)china(?!.*kong)(?!.*mac).*,Asia,Eastern Asia
+China,CHN,710,351,CH,924,CN,CHN,156,156,CHN,(?:(?!mac))(?:(?!hong)).*china(?!.*kong)(?!.*mac).*,Asia,Eastern Asia
 Cote D'Ivoire,CDI,437,107,IV,662,CI,CIV,384,384,CIV,.*ivoire.*|.*ivory.*,Africa,Western Africa
 Cameroon,CAO,471,32,CM,622,CM,CMR,120,120,CMR,.*cameroon.*,Africa,Middle Africa
 "Congo, The Democratic Republic Of",DRC,490,250,CG,636,CD,COD,180,180,ZAR,.*dem.*congo.*|.*congo.*dem.*|.congo.*dr.*|.*dr.*congo.*|.*zaire.*|.*congo.*br.,Africa,Middle Africa
