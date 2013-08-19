@@ -125,7 +125,7 @@ Mauritania,MAA,435,136,MR,682,MR,MRT,478,478,MRT,.*mauritania.*,Africa,Western A
 Mauritius,MAS,590,137,MP,684,MU,MUS,480,480,MUS,.*mauritius.*,Africa,Eastern Africa
 Malawi,MAW,553,130,MI,676,MW,MWI,454,454,MWI,.*malawi.*,Africa,Eastern Africa
 Malaysia,MAL,820,131,MY,548,MY,MYS,458,458,MYS,.*malaysia.*,Asia,South-Eastern Asia
-Namibia,NAM,565,147,WA,,,NAM,516,516,NAM,.*namibia.*,Africa,Southern Africa
+Namibia,NAM,565,147,WA,,NA,NAM,516,516,NAM,.*namibia.*,Africa,Southern Africa
 Niger,NIR,436,158,NG,692,NE,NER,562,562,NER,.*niger(?!ia).*,Africa,Western Africa
 Nigeria,NIG,475,159,NI,694,NG,NGA,566,566,NGA,.*nigeria.*,Africa,Western Africa
 Nicaragua,NIC,93,157,NU,278,NI,NIC,558,558,NIC,.*nicaragua.*,Americas,Central America

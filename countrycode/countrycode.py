@@ -67,7 +67,8 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
     else:
         origin_codes = data[origin]
 
-    idx = [True if (v not in ['NA','']) and (origin_codes[i] not in ['NA','']) else False
+    #idx = [True if (v not in ['NA','']) and (origin_codes[i] not in ['NA','']) else False
+    idx = [True if (v != '') and (origin_codes[i] != '') else False
            for i,v in enumerate(target_codes)]
 
     origin_codes = [v for i,v in enumerate(origin_codes) if idx[i]]
