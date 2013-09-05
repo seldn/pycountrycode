@@ -125,7 +125,7 @@ Mauritania,MAA,435,136,MR,682,MR,MRT,478,478,MRT,.*mauritania.*,Africa,Western A
 Mauritius,MAS,590,137,MP,684,MU,MUS,480,480,MUS,.*mauritius.*,Africa,Eastern Africa
 Malawi,MAW,553,130,MI,676,MW,MWI,454,454,MWI,.*malawi.*,Africa,Eastern Africa
 Malaysia,MAL,820,131,MY,548,MY,MYS,458,458,MYS,.*malaysia.*,Asia,South-Eastern Asia
-Namibia,NAM,565,147,WA,,NA,NAM,516,516,NAM,.*namibia.*,Africa,Southern Africa
+Namibia,NAM,565,147,WA,,,NAM,516,516,NAM,.*namibia.*,Africa,Southern Africa
 Niger,NIR,436,158,NG,692,NE,NER,562,562,NER,.*niger(?!ia).*,Africa,Western Africa
 Nigeria,NIG,475,159,NI,694,NG,NGA,566,566,NGA,.*nigeria.*,Africa,Western Africa
 Nicaragua,NIC,93,157,NU,278,NI,NIC,558,558,NIC,.*nicaragua.*,Americas,Central America
@@ -186,7 +186,7 @@ Uzbekistan,UZB,704,235,UZ,927,UZ,UZB,860,860,UZB,.*uzbekistan.*,Asia,Central Asi
 Holy See (Vatican City State),PAP,327,,VT,,VA,VAT,336,336,VAT,.*holy see.*|.*vatican.*|.*papal.*st.*,Europe,Southern Europe
 Saint Vincent And The Grenadines,SVG,57,191,VC,364,VC,VCT,670,670,VCT,.*vincent.*,Americas,Caribbean
 "Venezuela, Bolivarian Republic Of",VEN,101,236,VE,299,VE,VEN,862,862,VEN,.*venezuela.*,Americas,South America
-Vietnam,RVN,816,237,VM,582,VN,VNM,704,704,VNM,.*viet.*nam.*,Asia,South-Eastern Asia
+Vietnam,DRV,816,237,VM,582,VN,VNM,704,704,VNM,.*viet.*nam.*,Asia,South-Eastern Asia
 Vanuatu,VAN,935,155,NH,846,VU,VUT,548,548,VUT,.*vanuatu.*,Oceania,Melanesia
 Samoa,WSM,990,244,SM,862,WS,WSM,882,882,WSM,^samoa$|.*w.*samoa.*,Oceania,Polynesia
 Yemen,YEM,679,249,YM,474,YE,YEM,887,887,YEM,.*yemen.*,Asia,Western Asia
@@ -216,7 +216,6 @@ Austria-Hungary,AUH,300,,,,,,,,,,,
 Yemen Arab Republic,YAR,678,,,,,,,,,,,
 Yemen People'S Republic,YPR,680,,,,,,,,,,,
 Korea,KOR,730,,,,,,,,,,,
-Vietnam,DRV,816,,,,,,,,,,,
 Aruba,,,,,314,AW,ABW,533,533,ABW,.*aruba.*,Americas,Caribbean
 Anguilla,,,,,312,AI,AIA,660,660,AIA,.*anguilla.*,Americas,Caribbean
 Aland Islands,,,,,,AX,ALA,248,248,ALA,.*(?<!new ze)aland.*,Europe,Northern Europe
