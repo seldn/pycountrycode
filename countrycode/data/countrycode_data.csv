@@ -94,7 +94,7 @@ Cambodia,CAM,811,115,CB,522,KH,KHM,116,116,KHM,.*cambodia.*|.*kampuchea.*|.*khme
 Kiribati,KIR,946,83,KR,826,KI,KIR,296,296,KIR,.*kiribati.*,Oceania,Micronesia
 Saint Kitts And Nevis,SKN,60,188,SC,361,KN,KNA,659,659,KNA,.*kitt.*nev.*|.*christopher.*nev.*,Americas,Caribbean
 "Korea, Republic Of",ROK,732,117,KS,542,KR,KOR,410,410,KOR,.*(?!.*dem)(?!.*nor)(?!.*peo)korea(?!.*nor)(?!.*peo)(?!.*dem).*,Asia,Eastern Asia
-"Korea, Democratic People'S Republic Of",PRK,731,116,,,KP,PRK,408,408,PRK,peo.*dem.*korea.*|.*north korea.*|.*korea.*peo.*dem.*|.*korea.*north.*|.*korea.*pr.*|korea.*dem.*peo.*rep.*|'.*dem.*rep.*korea.*|.*korea.*dem.*rep.*,Asia,Eastern Asia
+"Korea, Democratic People'S Republic Of",PRK,731,116,KN,,KP,PRK,408,408,PRK,peo.*dem.*korea.*|.*north korea.*|.*korea.*peo.*dem.*|.*korea.*north.*|.*korea.*pr.*|korea.*dem.*peo.*rep.*|'.*dem.*rep.*korea.*|.*korea.*dem.*rep.*,Asia,Eastern Asia
 Kuwait,KUW,690,118,KU,443,KW,KWT,414,414,KWT,.*kuwait.*,Asia,Western Asia
 Lao People'S Democratic Republic,LAO,812,120,LA,544,LA,LAO,418,418,LAO,.*lao.*,Asia,South-Eastern Asia
 Lebanon,LEB,660,121,LE,446,LB,LBN,422,422,LBN,.*lebanon.*,Asia,Western Asia
@@ -155,7 +155,7 @@ Singapore,SIN,830,,SN,576,SG,SGP,702,702,SGP,.*singapore.*,Asia,South-Eastern As
 Solomon Islands,SOL,940,25,BP,813,SB,SLB,90,90,SLB,.*solomon.*,Oceania,Melanesia
 Sierra Leone,SIE,451,197,SL,724,SL,SLE,694,694,SLE,.*sierra.*,Africa,Western Africa
 El Salvador,SAL,92,60,ES,253,SV,SLV,222,222,SLV,.*el.*salvador.*,Americas,Central America
-San Marino,SNM,331,192,,135,SM,SMR,674,674,SMR,.*san marino.*,Europe,Southern Europe
+San Marino,SNM,331,192,SM,135,SM,SMR,674,674,SMR,.*san marino.*,Europe,Southern Europe
 Somalia,SOM,520,201,SO,726,SO,SOM,706,706,SOM,.*somali.*,Africa,Eastern Africa
 Sao Tome And Principe,STP,403,193,TP,716,ST,STP,678,678,STP,.*sao.*principe.*|.*sao.*tome.*,Africa,Middle Africa
 Suriname,SUR,115,207,NS,366,SR,SUR,740,740,SUR,.*surinam.*,Americas,South America
@@ -176,7 +176,7 @@ Trinidad And Tobago,TRI,52,220,TD,369,TT,TTO,780,780,TTO,.*trinidad.*|.*tobago.*
 Tunisia,TUN,616,222,TS,744,TN,TUN,788,788,TUN,.*tunisia.*,Africa,Northern Africa
 Turkey,TUR,640,223,TU,186,TR,TUR,792,792,TUR,.*turkey.*,Asia,Western Asia
 Tuvalu,TUV,947,227,TV,,TV,TUV,798,798,TUV,.*tuvalu.*,Oceania,Polynesia
-"Taiwan, Province Of China",TAW,713,,,528,TW,TWN,158,,TWN,.*taiwan.*,,
+"Taiwan, Province Of China",TAW,713,,TW,528,TW,TWN,158,,TWN,.*taiwan.*,,
 "Tanzania, United Republic Of",TAZ,510,215,TZ,738,TZ,TZA,834,834,TZA,.*tanzania.*,Africa,Eastern Africa
 Uganda,UGA,500,226,UG,746,UG,UGA,800,800,UGA,.*uganda.*,Africa,Eastern Africa
 Ukraine,UKR,369,230,UP,926,UA,UKR,804,804,UKR,.*ukraine.*,Europe,Eastern Europe
@@ -216,57 +216,57 @@ Austria-Hungary,AUH,300,,,,,,,,,,,
 Yemen Arab Republic,YAR,678,,,,,,,,,,,
 Yemen People'S Republic,YPR,680,,,,,,,,,,,
 Korea,KOR,730,,,,,,,,,,,
-Aruba,,,,,314,AW,ABW,533,533,ABW,.*aruba.*,Americas,Caribbean
-Anguilla,,,,,312,AI,AIA,660,660,AIA,.*anguilla.*,Americas,Caribbean
+Aruba,,,,AA,314,AW,ABW,533,533,ABW,.*aruba.*,Americas,Caribbean
+Anguilla,,,,AV,312,AI,AIA,660,660,AIA,.*anguilla.*,Americas,Caribbean
 Aland Islands,,,,,,AX,ALA,248,248,ALA,.*(?<!new ze)aland.*,Europe,Northern Europe
-American Samoa,,,,,859,AS,ASM,16,16,ASM,.*americ.*samoa.*|.*samoa.*americ.*,Oceania,Polynesia
-Antarctica,,,,,,AQ,ATA,10,,ATA,.*antarctica.*,,
+American Samoa,,,,AS,859,AS,ASM,16,16,ASM,.*americ.*samoa.*|.*samoa.*americ.*,Oceania,Polynesia
+Antarctica,,,,AY,,AQ,ATA,10,,ATA,.*antarctica.*,,
 French Southern Territories,,,,,,TF,ATF,260,,ATF,.*french.*southern.*territories.*,,
 Saint Barthelemy,,,,,,BL,BLM,652,652,BLM,.*barth.*lemy.*,Americas,Caribbean
 Bermuda,,,,,319,BM,BMU,60,60,BMU,.*bermuda.*,Americas,Northern America 
 Bouvet Island,,,,,,BV,BVT,74,,BVT,.*bouvet.*,,
 Cocos (Keeling) Islands,,,,,,CC,CCK,166,,CCK,.*cocos.*,,
-Cook Islands,,,47,,815,CK,COK,184,184,COK,.*cook.*,Oceania,Polynesia
-Christmas Island,,,,,,CX,CXR,162,,CXR,.*christmas.*,,
-Cayman Islands,,,,,377,KY,CYM,136,136,CYM,.*cayman.*,Americas,Caribbean
-Western Sahara,,,,,,EH,ESH,732,732,ESH,.*sahara.*,Africa,Northern Africa
-Falkland Islands (Malvinas),,,,,323,FK,FLK,238,238,FLK,.*falkland.*|.*malvinas.*,Americas,South America
-Faroe Islands,,,64,,816,FO,FRO,234,234,FRO,.*faroe.*|.*faeroe.*,Europe,Northern Europe
-Guernsey,,,,,,GG,GGY,831,831,GGY,.*guernsey.*,Europe,Northern Europe
-Gibraltar,,,,,823,GI,GIB,292,292,GIB,.*gibraltar.*,Europe,Southern Europe
-Guadeloupe,,,,,329,GP,GLP,312,312,GLP,.*guadeloupe.*,Americas,Caribbean
-Greenland,,,,,326,GL,GRL,304,304,GRL,.*greenland.*,Americas,Northern America 
-French Guiana,,,,,333,GF,GUF,254,254,GUF,.*french guiana.*,Americas,South America
-Guam,,,,,829,GU,GUM,316,316,GUM,.*guam.*,Oceania,Micronesia
+Cook Islands,,,47,CW,815,CK,COK,184,184,COK,.*cook.*,Oceania,Polynesia
+Christmas Island,,,,CX,,CX,CXR,162,,CXR,.*christmas.*,,
+Cayman Islands,,,,CJ,377,KY,CYM,136,136,CYM,.*cayman.*,Americas,Caribbean
+Western Sahara,,,,WI,,EH,ESH,732,732,ESH,.*sahara.*,Africa,Northern Africa
+Falkland Islands (Malvinas),,,,FK,323,FK,FLK,238,238,FLK,.*falkland.*|.*malvinas.*,Americas,South America
+Faroe Islands,,,64,FO,816,FO,FRO,234,234,FRO,.*faroe.*|.*faeroe.*,Europe,Northern Europe
+Guernsey,,,,GK,,GG,GGY,831,831,GGY,.*guernsey.*,Europe,Northern Europe
+Gibraltar,,,,GI,823,GI,GIB,292,292,GIB,.*gibraltar.*,Europe,Southern Europe
+Guadeloupe,,,,GP,329,GP,GLP,312,312,GLP,.*guadeloupe.*,Americas,Caribbean
+Greenland,,,,GL,326,GL,GRL,304,304,GRL,.*greenland.*,Americas,Northern America 
+French Guiana,,,,FG,333,GF,GUF,254,254,GUF,.*french guiana.*,Americas,South America
+Guam,,,,GU,829,GU,GUM,316,316,GUM,.*guam.*,Oceania,Micronesia
 Heard Island And Mcdonald Islands,,,,,,HM,HMD,334,,HMD,.*heard.*mcdonald.*,,
-Isle Of Man,,,,,,IM,IMN,833,833,IMY,.*isle.*man.*|.*man.*isle.*,Europe,Northern Europe
+Isle Of Man,,,,IM,,IM,IMN,833,833,IMY,.*isle.*man.*|.*man.*isle.*,Europe,Northern Europe
 British Indian Ocean Territory,,,,,,IO,IOT,86,,IOT,.*british indian ocean territory.*,,
 Jersey,,,,,,JE,JEY,832,832,JEY,.*jersey.*,Europe,Northern Europe
-Macao,,,,,546,MO,MAC,446,446,MAC,.*macao.*|.*macau.*,Asia,Eastern Asia
+Macao,,,,MC,546,MO,MAC,446,446,MAC,.*macao.*|.*macau.*,Asia,Eastern Asia
 Saint Martin,,,,,,MF,MAF,663,663,MAF,.*sa.*martin.*|.*st.*martin.*,Americas,Caribbean
-Northern Mariana Islands,,,,,,MP,MNP,580,580,MNP,.*mariana.*,Oceania,Micronesia
-Montserrat,,,,,351,MS,MSR,500,500,MSR,.*montserrat.*,Americas,Caribbean
-Martinique,,,,,349,MQ,MTQ,474,474,MTQ,.*martinique.*,Americas,Caribbean
+Northern Mariana Islands,,,,CQ,,MP,MNP,580,580,MNP,.*mariana.*,Oceania,Micronesia
+Montserrat,,,,MH,351,MS,MSR,500,500,MSR,.*montserrat.*,Americas,Caribbean
+Martinique,,,,MB,349,MQ,MTQ,474,474,MTQ,.*martinique.*,Americas,Caribbean
 Mayotte,,,,,,YT,MYT,175,175,MYT,.*mayotte.*,Africa,Eastern Africa
-New Caledonia,,,,,839,NC,NCL,540,540,NCL,.*new caledonia.*,Oceania,Melanesia
+New Caledonia,,,,NC,839,NC,NCL,540,540,NCL,.*new caledonia.*,Oceania,Melanesia
 Norfolk Island,,,,,,NF,NFK,574,574,NFK,.*norfolk.*,Oceania,Australia and New Zealand
-Niue,,,160,,,NU,NIU,570,570,NIU,.*niue.*,Oceania,Polynesia
+Niue,,,160,NE,,NU,NIU,570,570,NIU,.*niue.*,Oceania,Polynesia
 Netherlands Antilles,,,,,353,AN,ANT,530,,ANT,.*netherl.*ant.*,Americas,Caribbean
 Pitcairn,,,,,,PN,PCN,612,612,PCN,.*pitcairn.*,Oceania,Polynesia
-Puerto Rico,,,,,,PR,PRI,630,630,PRI,.*puerto rico.*,Americas,Caribbean
+Puerto Rico,,,,RQ,,PR,PRI,630,630,PRI,.*puerto rico.*,Americas,Caribbean
 "Palestinian Territory, Occupied",,,,,,PS,PSE,275,275,WBG,.*palestin.*|.*gaza.*|.*west.bank.*,Asia,Western Asia
-French Polynesia,,,,,887,PF,PYF,258,258,PYF,.*french polynesia.*,Oceania,Polynesia
-Reunion,,,,,696,RE,REU,638,638,REU,r.*union.*,Africa,Eastern Africa
+French Polynesia,,,,FP,887,PF,PYF,258,258,PYF,.*french polynesia.*,Oceania,Polynesia
+Reunion,,,,RE,696,RE,REU,638,638,REU,r.*union.*,Africa,Eastern Africa
 South Georgia And The South Sandwich Islands,,,,,,GS,SGS,239,,SGS,.*south.georgia.*|.*sandwich.*,,
-Saint Helena,,,,,856,SH,SHN,654,654,SHN,.*helena.*,Africa,Western Africa
-Svalbard And Jan Mayen,,,,,,SJ,SJM,744,744,SJM,.*svalbard.*,Europe,Northern Europe
+Saint Helena,,,,SH,856,SH,SHN,654,654,SHN,.*helena.*,Africa,Western Africa
+Svalbard And Jan Mayen,,,,SV,,SJ,SJM,744,744,SJM,.*svalbard.*,Europe,Northern Europe
 Saint Pierre And Miquelon,,,,,363,PM,SPM,666,666,SPM,.*miquelon.*,Americas,Northern America 
 Serbia,,,272,RI,965,RS,SRB,688,688,SRB,.*serbia.*,Europe,Southern Europe
 Turks And Caicos Islands,,,,,,TC,TCA,796,796,TCA,.*turks.*,Americas,Caribbean
 Tokelau,,,,TL,,,,772,772,TKL,.*tokelau.*,Oceania,Polynesia
 United States Minor Outlying Islands,,,,,,UM,UMI,581,,UMI,united states minor outlying islands,,
-"Virgin Islands, British",,,,,,VG,VGB,92,92,VGB,.*virgin.*brit.*|.*brit.*virgin.*|.*virgin.*u.*k.*|.*u.*k.*virgin.*,Americas,Caribbean
-"Virgin Islands, U.S.",,,,,,VI,VIR,850,850,VIR,.*virgin.*us.*|.*virgin.*u\.s\..*|.*us.*virgin.*,Americas,Caribbean
-Wallis And Futuna,,,,,,WF,WLF,876,876,WLF,.*futuna.*|.*wallis.*,Oceania,Polynesia
+"Virgin Islands, British",,,,VI,,VG,VGB,92,92,VGB,.*virgin.*brit.*|.*brit.*virgin.*|.*virgin.*u.*k.*|.*u.*k.*virgin.*,Americas,Caribbean
+"Virgin Islands, U.S.",,,,VQ,,VI,VIR,850,850,VIR,.*virgin.*us.*|.*virgin.*u\.s\..*|.*us.*virgin.*,Americas,Caribbean
+Wallis And Futuna,,,,WS,,WF,WLF,876,876,WLF,.*futuna.*|.*wallis.*,Oceania,Polynesia
 Sint Maarten,,,,NN,,SX,SXM,534,534,SXM,.*sint.*maarten.*|.*saint.*maarten.*|.*st.*maarten.*,Americas,Caribbean
 Curacao,,,,UC,,CW,CUW,531,531,CUW,.*curacao.*,Americas,Caribbean
