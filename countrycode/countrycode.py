@@ -10,7 +10,7 @@ data = zip(*f)
 data = [(x[0], x[1:]) for x in data]
 data = dict(data)
 
-def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
+def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name', dictionary=False):
     '''Convert to and from 11 country code schemes. Use regular expressions to detect country names and standardize them. Assign region/continent descriptors.
 
     Parameters
@@ -46,6 +46,18 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
         * region : World Bank geographic region descriptor
         * continent : Name of continent
     '''
+
+    if dictionary:
+        import pandas as pd
+        in_codes = pd.Series(codes).unique()
+        out_codes = _convert(in_codes, origin, target)
+        out = pd.DataFrame(zip(in_codes, out_codes), columns=[origin, target])
+    else:
+        out = _convert(codes, origin, target)
+    return out
+
+def _convert(codes, origin, target):
+    '''Internal conversion function'''
 
     # Codes to be converted (cleanup)
     if type(codes) in [str, int]:
