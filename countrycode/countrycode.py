@@ -52,6 +52,7 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name', dic
         in_codes = pd.Series(codes).unique()
         out_codes = _convert(in_codes, origin, target)
         out = pd.DataFrame(zip(in_codes, out_codes), columns=[origin, target])
+        out = out.dropna()
     else:
         out = _convert(codes, origin, target)
     return out
