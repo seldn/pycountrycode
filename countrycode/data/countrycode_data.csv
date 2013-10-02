@@ -58,10 +58,10 @@ Costa Rica,COS,94,48,CS,238,CR,CRI,188,188,CRI,.*costa.rica.*,Americas,Central A
 Cote D'Ivoire,CDI,437,107,IV,662,CI,CIV,384,384,CIV,.*ivoire.*|.*ivory.*,Africa,Western Africa
 Croatia,CRO,344,98,HR,960,HR,HRV,191,191,HRV,.*croatia.*,Europe,Southern Europe
 Cuba,CUB,40,49,CU,928,CU,CUB,192,192,CUB,.*cuba.*,Americas,Caribbean
-Curacao,,,,UC,,CW,CUW,531,531,CUW,.*curacao.*,Americas,Caribbean
+Curacao,,,,UC,354,CW,CUW,531,531,CUW,.*curacao.*,Americas,Caribbean
 Cyprus,CYP,352,50,CY,423,CY,CYP,196,196,CYP,.*cyprus.*,Asia,Western Asia
 Czech Republic,CZR,316,167,EZ,935,CZ,CZE,203,203,CZE,.*czech.*rep.*|.*rep.*czech.*,Europe,Eastern Europe
-Czechoslovakia,CZE,315,,,,,,,,,.*czechoslovakia.*,,
+Czechoslovakia,CZE,315,,,934,,,,,,.*czechoslovakia.*,,
 Denmark,DEN,390,54,DA,128,DK,DNK,208,208,DNK,.*denmark.*,Europe,Northern Europe
 Djibouti,DJI,522,72,DJ,611,DJ,DJI,262,262,DJI,.*djibouti.*,Africa,Eastern Africa
 Dominica,DMA,54,55,DO,321,DM,DMA,212,212,DMA,.*dominica(?!n)(?!.*rep).*,Americas,Caribbean
@@ -127,7 +127,7 @@ Kiribati,KIR,946,83,KR,826,KI,KIR,296,296,KIR,.*kiribati.*,Oceania,Micronesia
 Korea,KOR,730,,,,,,,,,,,
 "Korea, Democratic People'S Republic Of",PRK,731,116,KN,,KP,PRK,408,408,PRK,peo.*dem.*korea.*|.*north korea.*|.*korea.*peo.*dem.*|.*korea.*north.*|.*korea.*pr.*|korea.*dem.*peo.*rep.*|'.*dem.*rep.*korea.*|.*korea.*dem.*rep.*,Asia,Eastern Asia
 "Korea, Republic Of",ROK,732,117,KS,542,KR,KOR,410,410,KOR,.*(?!.*dem)(?!.*nor)(?!.*peo)korea(?!.*nor)(?!.*peo)(?!.*dem).*,Asia,Eastern Asia
-Kosovo,KOS,347,,KV,,,,,,KSV,.*kosovo.*,,
+Kosovo,KOS,347,,KV,967,,,,,KSV,.*kosovo.*,,
 Kuwait,KUW,690,118,KU,443,KW,KWT,414,414,KWT,.*kuwait.*,Asia,Western Asia
 Kyrgyzstan,KYR,703,113,KG,917,KG,KGZ,417,417,KGZ,.*kyrgyz.*,Asia,Central Asia
 Lao People'S Democratic Republic,LAO,812,120,LA,544,LA,LAO,418,418,LAO,.*lao.*,Asia,South-Eastern Asia
@@ -164,7 +164,7 @@ Montserrat,,,,MH,351,MS,MSR,500,500,MSR,.*montserrat.*,Americas,Caribbean
 Morocco,MOR,600,143,MO,686,MA,MAR,504,504,MAR,.*morocco.*,Africa,Northern Africa
 Mozambique,MZM,541,144,MZ,688,MZ,MOZ,508,508,MOZ,.*mozambique.*,Africa,Eastern Africa
 Myanmar,MYA,775,28,BM,518,MM,MMR,104,104,MMR,.*myanmar.*|.*burma.*,Asia,South-Eastern Asia
-Namibia,NAM,565,147,WA,,,NAM,516,516,NAM,.*namibia.*,Africa,Southern Africa
+Namibia,NAM,565,147,WA,728,NA,NAM,516,516,NAM,.*namibia.*,Africa,Southern Africa
 Nauru,NAU,970,148,NR,836,NR,NRU,520,520,NRU,.*nauru.*,Oceania,Micronesia
 Nepal,NEP,790,149,NP,558,NP,NPL,524,524,NPL,.*nepal.*,Asia,Southern Asia
 Netherlands,NTH,210,150,NL,138,NL,NLD,528,528,NLD,.*netherlands(?!.*ant).*,Europe,Western Europe
@@ -181,7 +181,7 @@ Norway,NOR,385,162,NO,142,NO,NOR,578,578,NOR,.*norway.*,Europe,Northern Europe
 Oman,OMA,698,221,MU,449,OM,OMN,512,512,OMN,^[^r]*oman.*,Asia,Western Asia
 Pakistan,PAK,770,165,PK,564,PK,PAK,586,586,PAK,.*pakistan.*,Asia,Southern Asia
 Palau,PAL,986,180,PS,565,PW,PLW,585,585,PLW,.*palau.*,Oceania,Micronesia
-"Palestinian Territory, Occupied",,,,,,PS,PSE,275,275,WBG,.*palestin.*|.*gaza.*|.*west.bank.*,Asia,Western Asia
+"Palestinian Territory, Occupied",,,,,487,PS,PSE,275,275,WBG,.*palestin.*|.*gaza.*|.*west.bank.*,Asia,Western Asia
 Panama,PAN,95,166,PM,283,PA,PAN,591,591,PAN,.*panama.*,Americas,Central America
 Papua New Guinea,PNG,910,168,PP,853,PG,PNG,598,598,PNG,.*papua.new.g.*,Oceania,Melanesia
 Paraguay,PAR,150,169,PA,288,PY,PRY,600,600,PRY,.*paraguay.*,Americas,South America
@@ -202,7 +202,7 @@ Saint Barthelemy,,,,,,BL,BLM,652,652,BLM,.*barth.*lemy.*,Americas,Caribbean
 Saint Helena,,,,SH,856,SH,SHN,654,654,SHN,.*helena.*,Africa,Western Africa
 Saint Kitts And Nevis,SKN,60,188,SC,361,KN,KNA,659,659,KNA,.*kitt.*nev.*|.*christopher.*nev.*,Americas,Caribbean
 Saint Lucia,SLU,56,189,ST,362,LC,LCA,662,662,LCA,.*lucia.*,Americas,Caribbean
-Saint Martin,,,,,,MF,MAF,663,663,MAF,.*sa.*martin.*|.*st.*martin.*,Americas,Caribbean
+Saint Martin,,,,,352,MF,MAF,663,663,MAF,.*sa.*martin.*|.*st.*martin.*,Americas,Caribbean
 Saint Pierre And Miquelon,,,,,363,PM,SPM,666,666,SPM,.*miquelon.*,Americas,Northern America 
 Saint Vincent And The Grenadines,SVG,57,191,VC,364,VC,VCT,670,670,VCT,.*vincent.*,Americas,Caribbean
 Samoa,WSM,990,244,SM,862,WS,WSM,882,882,WSM,^samoa$|.*w.*samoa.*,Oceania,Polynesia
@@ -211,11 +211,11 @@ Sao Tome And Principe,STP,403,193,TP,716,ST,STP,678,678,STP,.*s.*to.*principe.*|
 Saudi Arabia,SAU,670,194,SA,456,SA,SAU,682,682,SAU,.*sa.*arabia.*,Asia,Western Asia
 Saxony,SAX,269,,,,,,,,,.*saxony.*,,
 Senegal,SEN,433,195,SG,722,SN,SEN,686,686,SEN,.*senegal.*,Africa,Western Africa
-Serbia,,,272,RI,965,RS,SRB,688,688,SRB,.*serbia.*,Europe,Southern Europe
+Serbia,,,272,RI,942,RS,SRB,688,688,SRB,.*serbia.*,Europe,Southern Europe
 Seychelles,SEY,591,196,SE,718,SC,SYC,690,690,SYC,.*seychell.*,Africa,Eastern Africa
 Sierra Leone,SIE,451,197,SL,724,SL,SLE,694,694,SLE,.*sierra.*,Africa,Western Africa
 Singapore,SIN,830,,SN,576,SG,SGP,702,702,SGP,.*singapore.*,Asia,South-Eastern Asia
-Sint Maarten,,,,NN,,SX,SXM,534,534,SXM,.*sint.*maarten.*|.*saint.*maarten.*|.*st.*maarten.*,Americas,Caribbean
+Sint Maarten,,,,NN,352,SX,SXM,534,534,SXM,.*sint.*maarten.*|.*saint.*maarten.*|.*st.*maarten.*,Americas,Caribbean
 Slovakia,SLO,317,199,LO,936,SK,SVK,703,703,SVK,^slovak.*,Europe,Eastern Europe
 Slovenia,SLV,349,198,SI,961,SI,SVN,705,705,SVN,.*slovenia.*,Europe,Southern Europe
 Solomon Islands,SOL,940,25,BP,813,SB,SLB,90,90,SLB,.*solomon.*,Oceania,Melanesia
@@ -267,7 +267,7 @@ Wuerttemburg,WRT,271,,,,,,,,,.*wuerttemburg.*,,
 Yemen,YEM,679,249,YM,474,YE,YEM,887,887,YEM,.*yemen.*,Asia,Western Asia
 Yemen Arab Republic,YAR,678,,,,,,,,,,,
 Yemen People's Republic,YPR,680,,,,,,,,,,,
-Yugoslavia,YUG,345,,,,,,,,,.*yugoslavia.*,,
+Yugoslavia,YUG,345,,,188,,,,,,.*yugoslavia.*,,
 Zambia,ZAM,551,251,ZA,754,ZM,ZMB,894,894,ZMB,.*zambia.*,Africa,Eastern Africa
 Zanzibar,ZAN,511,,,,,,,,,.*zanzibar.*,,
 Zimbabwe,ZIM,552,181,ZI,698,ZW,ZWE,716,716,ZWE,.*zimbabwe.*,Africa,Eastern Africa

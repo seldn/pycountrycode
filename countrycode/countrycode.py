@@ -11,7 +11,9 @@ data = [(x[0], x[1:]) for x in data]
 data = dict(data)
 
 def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name', dictionary=False):
-    '''Convert to and from 11 country code schemes. Use regular expressions to detect country names and standardize them. Assign region/continent descriptors.
+    '''Convert to and from 11 country code schemes. Use regular expressions to
+    detect country names and standardize them. Assign region/continent
+    descriptors.
 
     Parameters
     ----------
