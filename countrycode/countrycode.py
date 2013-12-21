@@ -63,7 +63,7 @@ def _convert(codes, origin, target):
     '''Internal conversion function'''
 
     # Codes to be converted (cleanup)
-    if type(codes) in [str, int]:
+    if type(codes) in [str, unicode, int]:
         codes = [codes]
         loner = True
     else:
