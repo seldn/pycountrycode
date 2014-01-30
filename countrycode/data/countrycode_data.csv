@@ -51,8 +51,8 @@ Christmas Island,,,,CX,,CX,CXR,162,,CXR,.*christmas.*,,
 Cocos (Keeling) Islands,,,,,,CC,CCK,166,,CCK,.*cocos.*,,
 Colombia,COL,100,44,CO,233,CO,COL,170,170,COL,.*colombia.*,Americas,South America
 Comoros,COM,581,45,CN,632,KM,COM,174,174,COM,.*comoro.*,Africa,Eastern Africa
-"Congo, Republic Of",CON,484,46,CF,634,CG,COG,178,178,COG,^(.(?<!dem))*congo(.(?!dem))*$,Africa,Middle Africa
-"Congo, The Democratic Republic Of",DRC,490,250,CG,636,CD,COD,180,180,ZAR,.*dem.*congo.*|.*congo.*dem.*|.congo.*dr.*|.*dr.*congo.*|.*zaire.*|.*congo.*br.,Africa,Middle Africa
+"Congo, Republic Of",CON,484,46,CF,634,CG,COG,178,178,COG,(?!dem)(?!dr).*congo(?!.*dem)(?!.*dr).*,Africa,Middle Africa
+"Congo, The Democratic Republic Of",DRC,490,250,CG,636,CD,COD,180,180,ZAR,.*dem.*congo.*|.*congo.*dem.*|.*congo.*dr.*|.*dr.*congo.*|.*zaire.*|.*congo.*br.,Africa,Middle Africa
 Cook Islands,,,47,CW,815,CK,COK,184,184,COK,.*cook.*,Oceania,Polynesia
 Costa Rica,COS,94,48,CS,238,CR,CRI,188,188,CRI,.*costa.rica.*,Americas,Central America
 Cote D'Ivoire,CDI,437,107,IV,662,CI,CIV,384,384,CIV,.*ivoire.*|.*ivory.*,Africa,Western Africa
@@ -86,7 +86,7 @@ Gambia,GAM,420,75,GA,648,GM,GMB,270,270,GMB,.*gambia.*,Africa,Western Africa
 Georgia,GRG,372,73,GG,915,GE,GEO,268,268,GEO,(?<!south)georgia.*,Asia,Western Asia
 German Democratic Republic,GDR,265,,,,,,,,,.*german.*democratic.*republic.*,,
 German Federal Republic,GFR,260,,,,,,,,,,,
-Germany,GMY,255,79,GM,134,DE,DEU,276,276,DEU,.*germany.*|.*baden.*|.*bavaria.*|.*german.*fed.*rep.*|.*fed.*rep.*german.*,Europe,Western Europe
+Germany,GMY,255,79,GM,134,DE,DEU,276,276,DEU,(?!east).*germany.*|.*baden.*|.*bavaria.*|.*german.*fed.*rep.*|.*fed.*rep.*german.*,Europe,Western Europe
 Ghana,GHA,452,81,GH,652,GH,GHA,288,288,GHA,.*ghana.*,Africa,Western Africa
 Gibraltar,,,,GI,823,GI,GIB,292,292,GIB,.*gibraltar.*,Europe,Southern Europe
 Greece,GRC,350,84,GR,174,GR,GRC,300,300,GRC,.*greece.*,Europe,Southern Europe

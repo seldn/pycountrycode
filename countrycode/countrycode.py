@@ -1,6 +1,7 @@
 import re
 import os
 import csv
+import pandas as pd
 from copy import copy
 
 pkg_dir, pkg_filename = os.path.split(__file__)
@@ -9,6 +10,17 @@ f = csv.reader(open(data_path, 'r'))
 data = zip(*f)
 data = [(x[0], x[1:]) for x in data]
 data = dict(data)
+
+def countryyear(code='iso3c', years=range(1990,2013)):
+    codes = data[code]
+    out = pd.DataFrame(zip(range(len(codes)), codes), columns=['idx', code])
+    out[code][out[code]==''] = None
+    out = out.dropna()
+    out = [out.copy() for x in years]
+    for i,v in enumerate(years):
+        out[i]['year'] = v
+    out = reduce(lambda x,y: pd.concat([x,y]), out)
+    return out
 
 def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name', dictionary=False):
     '''Convert to and from 11 country code schemes. Use regular expressions to
@@ -50,7 +62,6 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name', dic
     '''
 
     if dictionary:
-        import pandas as pd
         in_codes = pd.Series(codes).unique()
         out_codes = _convert(in_codes, origin, target)
         out = pd.DataFrame(zip(in_codes, out_codes), columns=[origin, target])
