@@ -96,7 +96,7 @@ Guadeloupe,,,,GP,329,GP,GLP,312,312,GLP,.*guadeloupe.*,Americas,Caribbean
 Guam,,,,GU,829,GU,GUM,316,316,GUM,.*guam.*,Oceania,Micronesia
 Guatemala,GUA,90,89,GT,258,GT,GTM,320,320,GTM,.*guatemala.*,Americas,Central America
 Guernsey,,,,GK,,GG,GGY,831,831,GGY,.*guernsey.*,Europe,Northern Europe
-Guinea,GUI,438,90,GV,656,GN,GIN,324,324,GIN,(?<!eq)guinea(?!.*biss).*,Africa,Western Africa
+Guinea,GUI,438,90,GV,656,GN,GIN,324,324,GIN,^(?<!eq)guinea(?!.*biss).*,Africa,Western Africa
 Guinea-Bissau,GNB,404,175,PU,654,GW,GNB,624,624,GNB,.*bissau.*|.*guinea.*au.*,Africa,Western Africa
 Guyana,GUY,110,91,GY,336,GY,GUY,328,328,GUY,.*guyana.*,Americas,South America
 Haiti,HAI,41,93,HA,263,HT,HTI,332,332,HTI,.*haiti.*,Americas,Caribbean
