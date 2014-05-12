@@ -11,6 +11,36 @@ data = zip(*f)
 data = [(x[0], x[1:]) for x in data]
 data = dict(data)
 
+#data_path = os.path.join(pkg_dir, "data", "states2014.csv")
+
+#states = pd.read_csv(data_path)
+#f = lambda x: xrange(x['styear'], x['endyear'] + 1)
+#g = lambda x: reduce(lambda z, y: z + y, x)
+
+#def make_frame(years, code='AFG', codename='cowc'):
+    #years = list(set(sum(years, [])))
+    #out = pd.DataFrame(years, columns=['year'])
+    #out[codename] = code
+    #return out
+
+#cowc = []
+#cown = []
+#for c in states.stateabb.unique():
+    #tmp = states[states.stateabb==c]
+    #tmp = tmp.apply(f, axis=1).tolist()
+    #tmp = [list(x) for x in tmp]
+    #tmp = make_frame(tmp, code=c, codename='cowc')
+    #cowc.append(tmp)
+#for c in states.ccode.unique():
+    #tmp = states[states.ccode==c]
+    #tmp = tmp.apply(f, axis=1).tolist()
+    #tmp = [list(x) for x in tmp]
+    #tmp = make_frame(tmp, code=c, codename='cown')
+    #cown.append(tmp)
+#cowc = pd.concat(cowc, ignore_index=True)
+#cown = pd.concat(cown, ignore_index=False)
+
+
 def countryyear(code='iso3c', years=range(1990,2013)):
     codes = data[code]
     out = pd.DataFrame(zip(range(len(codes)), codes), columns=['idx', code])
