@@ -1,4 +1,4 @@
-from countrycode import countrycode
+from .countrycode import countrycode
 
 def test_default():
     assert countrycode() == ['Algeria', 'Canada']
@@ -14,7 +14,7 @@ def test_iso3c_cn_single():
     assert countrycode('DZA', 'iso3c', 'country_name') == 'Algeria'
 
 def test_unicode():
-    assert countrycode(u'DZA', 'iso3c', 'country_name') == 'Algeria'
+    assert countrycode('DZA', 'iso3c', 'country_name') == 'Algeria'
 
 def test_regex():
     assert countrycode('georgia', 'country_name', 'iso3c') == 'GEO'

@@ -3,11 +3,12 @@ import os
 import csv
 import pandas as pd
 from copy import copy
+from functools import reduce
 
 pkg_dir, pkg_filename = os.path.split(__file__)
 data_path = os.path.join(pkg_dir, "data", "countrycode_data.csv")
 f = csv.reader(open(data_path, 'r'))
-data = zip(*f)
+data = list(zip(*f))
 data = [(x[0], x[1:]) for x in data]
 data = dict(data)
 
@@ -43,7 +44,7 @@ cowc = pd.read_csv(data_path)
 #cown = pd.concat(cown, ignore_index=False)
 
 
-def countryyear(code='iso3c', years=range(1990,2013)):
+def countryyear(code='iso3c', years=list(range(1990,2013))):
     if not years:
         if code == 'cown':
             out = cown
@@ -51,7 +52,7 @@ def countryyear(code='iso3c', years=range(1990,2013)):
             out = cowc
     else:
         codes = data[code]
-        out = pd.DataFrame(zip(range(len(codes)), codes), columns=['idx', code])
+        out = pd.DataFrame(list(zip(list(range(len(codes))), codes)), columns=['idx', code])
         out[code][out[code]==''] = None
         out = out.dropna()
         out = [out.copy() for x in years]
@@ -102,7 +103,7 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name', dic
     if dictionary:
         in_codes = pd.Series(codes).unique()
         out_codes = _convert(in_codes, origin, target)
-        out = pd.DataFrame(zip(in_codes, out_codes), columns=[origin, target])
+        out = pd.DataFrame(list(zip(in_codes, out_codes)), columns=[origin, target])
         out = out.dropna()
     else:
         out = _convert(codes, origin, target)
@@ -112,7 +113,7 @@ def _convert(codes, origin, target):
     '''Internal conversion function'''
 
     # Codes to be converted (cleanup)
-    if type(codes) in [str, unicode, int]:
+    if type(codes) in [str, str, int]:
         codes = [codes]
         loner = True
     else:
@@ -138,14 +139,14 @@ def _convert(codes, origin, target):
     origin_codes = [v for i,v in enumerate(origin_codes) if idx[i]]
     target_codes = [v for i,v in enumerate(target_codes) if idx[i]]
 
-    dictionary = dict(zip(origin_codes, target_codes))
+    dictionary = dict(list(zip(origin_codes, target_codes)))
 
     if origin != 'country_name':
         codes_new = ["None" if x not in origin_codes else x for x in codes]
     else:
         codes_new = copy(codes)
 
-    for k in dictionary.keys():
+    for k in list(dictionary.keys()):
         codes_new = [dictionary[k] if re.match('^'+k+'$', x) != None else x
                      for x in codes_new]
 
