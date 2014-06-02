@@ -11,18 +11,20 @@ data = zip(*f)
 data = [(x[0], x[1:]) for x in data]
 data = dict(data)
 
-#data_path = os.path.join(pkg_dir, "data", "states2014.csv")
+data_path = os.path.join(pkg_dir, "data", "cown2014.csv")
+cown = pd.read_csv(data_path)
+data_path = os.path.join(pkg_dir, "data", "cowc2014.csv")
+cowc = pd.read_csv(data_path)
 
+#data_path = os.path.join(pkg_dir, "data", "states2014.csv")
 #states = pd.read_csv(data_path)
 #f = lambda x: xrange(x['styear'], x['endyear'] + 1)
 #g = lambda x: reduce(lambda z, y: z + y, x)
-
 #def make_frame(years, code='AFG', codename='cowc'):
     #years = list(set(sum(years, [])))
     #out = pd.DataFrame(years, columns=['year'])
     #out[codename] = code
     #return out
-
 #cowc = []
 #cown = []
 #for c in states.stateabb.unique():
@@ -42,14 +44,20 @@ data = dict(data)
 
 
 def countryyear(code='iso3c', years=range(1990,2013)):
-    codes = data[code]
-    out = pd.DataFrame(zip(range(len(codes)), codes), columns=['idx', code])
-    out[code][out[code]==''] = None
-    out = out.dropna()
-    out = [out.copy() for x in years]
-    for i,v in enumerate(years):
-        out[i]['year'] = v
-    out = reduce(lambda x,y: pd.concat([x,y]), out)
+    if not years:
+        if code == 'cown':
+            out = cown
+        else:
+            out = cowc
+    else:
+        codes = data[code]
+        out = pd.DataFrame(zip(range(len(codes)), codes), columns=['idx', code])
+        out[code][out[code]==''] = None
+        out = out.dropna()
+        out = [out.copy() for x in years]
+        for i,v in enumerate(years):
+            out[i]['year'] = v
+        out = reduce(lambda x,y: pd.concat([x,y]), out)
     return out
 
 def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name', dictionary=False):
