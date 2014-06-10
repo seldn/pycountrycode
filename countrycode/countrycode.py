@@ -7,18 +7,19 @@ from functools import reduce
 
 pkg_dir, pkg_filename = os.path.split(__file__)
 data_path = os.path.join(pkg_dir, "data", "countrycode_data.csv")
-f = csv.reader(open(data_path, 'r'))
-data = list(zip(*f))
-data = [(x[0], x[1:]) for x in data]
-data = dict(data)
+data = pd.read_csv(data_path)
+#f = csv.reader(open(data_path, 'r'))
+#data = list(zip(*f))
+#data = [(x[0], x[1:]) for x in data]
+#data = dict(data)
 
 data_path = os.path.join(pkg_dir, "data", "cown2014.csv")
 cown = pd.read_csv(data_path)
 data_path = os.path.join(pkg_dir, "data", "cowc2014.csv")
 cowc = pd.read_csv(data_path)
+data_path = os.path.join(pkg_dir, "data", "states2014.csv")
+states = pd.read_csv(data_path)
 
-#data_path = os.path.join(pkg_dir, "data", "states2014.csv")
-#states = pd.read_csv(data_path)
 #f = lambda x: xrange(x['styear'], x['endyear'] + 1)
 #g = lambda x: reduce(lambda z, y: z + y, x)
 #def make_frame(years, code='AFG', codename='cowc'):
