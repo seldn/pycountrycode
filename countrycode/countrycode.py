@@ -13,7 +13,7 @@ data_path = os.path.join(pkg_dir, "data", "cowc2014.csv")
 cowc = pd.read_csv(data_path)
 
 def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
-    '''Convert to and from 11 country code schemes. Use regular expressions to
+    '''Convert to and from 12 country code schemes. Use regular expressions to
     detect country names and standardize them. Assign region/continent
     descriptors.
 
@@ -43,6 +43,7 @@ def countrycode(codes=['DZA', 'CAN'], origin='iso3c', target='country_name'):
         * imf : International Monetary Fund
         * fips104 : FIPS 10-4 U.S. government geographic data
         * fao : Food & Agriculture Organization of the U.N.
+        * ioc : International Olympic Committee
 
     Valid target codes:
 
