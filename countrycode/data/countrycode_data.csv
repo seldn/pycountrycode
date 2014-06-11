@@ -161,7 +161,7 @@ Monaco,MNC,221,140,MN,,MC,MCO,492,492,MCO,.*monaco.*,Europe,Western Europe
 Mongolia,MON,712,141,MG,948,MN,MNG,496,496,MNG,.*mongolia.*,Asia,Eastern Asia
 Montenegro,MNG,341,273,MJ,943,ME,MNE,499,499,MNE,(?!serbia).*montenegro.*,Europe,Southern Europe
 Montserrat,,,,MH,351,MS,MSR,500,500,MSR,.*montserrat.*,Americas,Caribbean
-Morocco,MOR,600,143,MO,686,MA,MAR,504,504,MAR,.*morocco.*|.*maroc.*|,Africa,Northern Africa
+Morocco,MOR,600,143,MO,686,MA,MAR,504,504,MAR,.*morocco.*|.*maroc.*,Africa,Northern Africa
 Mozambique,MZM,541,144,MZ,688,MZ,MOZ,508,508,MOZ,.*mozambique.*,Africa,Eastern Africa
 Myanmar,MYA,775,28,BM,518,MM,MMR,104,104,MMR,.*myanmar.*|.*burma.*,Asia,South-Eastern Asia
 Namibia,NAM,565,147,WA,728,NA,NAM,516,516,NAM,.*namibia.*,Africa,Southern Africa
