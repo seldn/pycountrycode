@@ -51,8 +51,8 @@ Christmas Island,,,,CX,,,CX,CXR,162,,CXR,.*christmas.*,,
 Cocos (Keeling) Islands,,,,,,,CC,CCK,166,,CCK,.*cocos.*,,
 Colombia,COL,100,44,CO,233,COL,CO,COL,170,170,COL,.*colombia.*,Americas,South America
 Comoros,COM,581,45,CN,632,COM,KM,COM,174,174,COM,.*comoro.*,Africa,Eastern Africa
-"Congo, The Democratic Republic Of",DRC,490,250,CG,636,COD,CD,COD,180,180,ZAR,.*dem.*congo.*|.*congo.*dem.*|.*congo.*dr.*|.*dr.*congo.*|.*zaire.*|.*congo.*br.*|.*congo.*drc.*,Africa,Middle Africa
 "Congo, Republic Of",CON,484,46,CF,634,CGO,CG,COG,178,178,COG,(?!dem)(?!dr).*congo(?!.*dem)(?!.*dr).*,Africa,Middle Africa
+"Congo, The Democratic Republic Of",DRC,490,250,CG,636,COD,CD,COD,180,180,ZAR,.*dem.*congo.*|.*congo.*dem.*|.*congo.*dr.*|.*dr.*congo.*|.*zaire.*|.*congo.*br.|.*congo.*drc.*,Africa,Middle Africa
 Cook Islands,,,47,CW,815,COK,CK,COK,184,184,COK,.*cook.*,Oceania,Polynesia
 Costa Rica,COS,94,48,CS,238,CRC,CR,CRI,188,188,CRI,.*costa.rica.*,Americas,Central America
 Cote D'Ivoire,CDI,437,107,IV,662,CIV,CI,CIV,384,384,CIV,.*ivoire.*|.*ivory.*,Africa,Western Africa
@@ -161,7 +161,7 @@ Monaco,MNC,221,140,MN,,MON,MC,MCO,492,492,MCO,.*monaco.*,Europe,Western Europe
 Mongolia,MON,712,141,MG,948,MGL,MN,MNG,496,496,MNG,.*mongolia.*,Asia,Eastern Asia
 Montenegro,MNG,341,273,MJ,943,MNE,ME,MNE,499,499,MNE,(?!serbia).*montenegro.*,Europe,Southern Europe
 Montserrat,,,,MH,351,,MS,MSR,500,500,MSR,.*montserrat.*,Americas,Caribbean
-Morocco,MOR,600,143,MO,686,MAR,MA,MAR,504,504,MAR,.*morocco.*|.*maroc.*,Africa,Northern Africa
+Morocco,MOR,600,143,MO,686,MAR,MA,MAR,504,504,MAR,.*morocco.*|.*maroc.*|,Africa,Northern Africa
 Mozambique,MZM,541,144,MZ,688,MOZ,MZ,MOZ,508,508,MOZ,.*mozambique.*,Africa,Eastern Africa
 Myanmar,MYA,775,28,BM,518,MYA,MM,MMR,104,104,MMR,.*myanmar.*|.*burma.*,Asia,South-Eastern Asia
 Namibia,NAM,565,147,WA,728,NAM,NA,NAM,516,516,NAM,.*namibia.*,Africa,Southern Africa

@@ -11,5 +11,5 @@ setup(
     license='LICENSE.txt',
     description='Convert country names and country codes',
     long_description=open('README.txt').read(),
-    package_data={'countrycode': ['data/countrycode_data.csv', 'data/cown2014.csv', 'data/cowc2014.csv', 'data/states2014.csv']}
+    package_data={'countrycode': ['data/countrycode_data.csv', 'data/cown2014.csv', 'data/cowc2014.csv']}
 )
